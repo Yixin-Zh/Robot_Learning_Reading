@@ -12,12 +12,15 @@
   - [Long-horizon Manipulation](#long-horizon-manipulation)
     - [Online Learning](#online-learning)
     - [Imitation Learning](#imitation-learning)
+    - [Scene Understanding](#scene-understanding)
     - [Chaining](#chaining)
+    - [Diffuser](#diffuser)
   - [Manipulation Skills](#manipulation-skills)
 
 ## Surveys
 - "Understanding the planning of LLM agents: A survey", *arXiv, Feb 2024.* [[Paper](https://arxiv.org/abs/2402.02716)]
-- "Integrated Task and Motion Planning", *airXiv, Oct 2020.* [[Paper](https://arxiv.org/pdf/2010.01083)]
+- "Integrated Task and Motion Planning", *arXiv, Oct 2020.* [[Paper](https://arxiv.org/pdf/2010.01083)]
+- "A Survey of Optimization-based Task and Motion Planning: From Classical To Learning Approaches", *arXiv, Apr 2024.*  [[Paper](https://arxiv.org/pdf/2404.02817)]
 ## Planning & Reasoning
 ### Applications
 - **FLAIR:** "Feeding via Long-horizon AcquIsition of Realistic dishes", *Robotic Science and Systems (RSS), 2024*. [[Website](https://flair-robot.github.io/)] [[Paper](https://flair-robot.github.io/assets/flair.pdf)]
@@ -33,11 +36,17 @@
 ### Imitation Learning
 - **ChainedDiffuser:** "Unifying Trajectory Diffusion and Keypose Prediction for Robotic Manipulation"， *Conference on Robot Learning (CoRL), 2023*. [[Website](https://chained-diffuser.github.io/)] [[Paper](https://openreview.net/pdf?id=W0zgY2mBTA8)] [[Code](https://github.com/zhouxian/act3d-chained-diffuser)]
 - **Act3D:** "3D Feature Field Transformers for Multi-Task Robotic Manipulation", *Conference on Robot Learning (CoRL), 2023*. [[Website](https://act3d.github.io/)] [[Paper](https://arxiv.org/pdf/2306.17817)] [[Code](https://github.com/zhouxian/act3d-chained-diffuser)]
-- **PerAct:** "Perceiver-Actor: A Multi-Task Transformer for Robotic Manipulation", *Conference on Robot Learning (CoRL), 2022*. [[Website](https://peract.github.io/)] [[Paper](https://peract.github.io/paper/peract_corl2022.pdf)] [[Code](https://github.com/peract/peract)]
-- **VoxPoser:** Composable 3D Value Maps for Robotic Manipulation with Language Models, *Conference on Robot Learning (CoRL), 2023*.[[Website](https://voxposer.github.io/)] [[Paper](https://voxposer.github.io/voxposer.pdf)] [[Code](https://github.com/huangwl18/VoxPoser)]
+- **PerAct:** "Perceiver-Actor: A Multi-Task Transformer for Robotic Manipulation", *Conference on Robot Learning (CoRL), 2022*. [[Website](https://peract.github.io/)] [[Paper](https://peract.github.io/paper/peract_corl2022.pdf)] [[Code](https://github.com/peract/peract)] [[Talk](https://www.youtube.com/watch?v=QcuXwmQgurE&t=3290s)]
+- **Genima**: "Generative Image as Action Models", *arXiv, July 2024*. [[Website](https://genima-robot.github.io/)] [[Paper](https://arxiv.org/pdf/2407.07875)] [[Code](https://github.com/MohitShridhar/genima)]
+### Scene Understanding
+- **VoxPoser:** Composable 3D Value Maps for Robotic Manipulation with Language Models, *Conference on Robot Learning (CoRL), 2023*. [[Website](https://voxposer.github.io/)] [[Paper](https://voxposer.github.io/voxposer.pdf)] [[Code](https://github.com/huangwl18/VoxPoser)]
+- **Clio:** "Real-time Task-Driven Open-Set 3D Scene Graphs", *arXiv, Apr 2024*. [[Paper](https://arxiv.org/pdf/2404.13696)] [[Code](https://github.com/MIT-SPARK/Clio)]
+- **VLFM:** "Vision-Language Frontier Maps for Zero-Shot Semantic Navigation", *International Conference on Robotics and Automation (ICRA), 2024*. [[Website](http://naoki.io/portfolio/vlfm)] [[Paper](https://arxiv.org/pdf/2312.03275)] [[Code](https://github.com/bdaiinstitute/vlfm)]
 ### Chaining
 - **Generative Skill Chaining:** "Long-Horizon Skill Planning with Diffusion Models", *Conference on Robot Learning (CoRL), 2023*. [[Website](https://generative-skill-chaining.github.io/)] [[Paper](https://generative-skill-chaining.github.io/assets/2023_Generative_Skill_Chaining.pdf)] [[Code](https://github.com/generative-skill-chaining/gsc-code)]
-- 
+
+### Diffuser
+- **Diffusion Forcing:** "Next-token Prediction Meets Full-Sequence Diffusion", *arXiv, July 2024*. [[Website](https://boyuan.space/diffusion-forcing/)] [[Paper](https://arxiv.org/pdf/2407.01392)] [[Code](https://github.com/buoyancy99/diffusion-forcing)] 
 ## Manipulation Skills
 - **EquiBot:** "SIM(3)-Equivariant Diffusion Policy for Generalizable and Data Efficient Learning", *arXiv, July 2024*. [[Website](https://equi-bot.github.io/)] [[Paper](https://arxiv.org/pdf/2407.01479)]
 - **RoboPack:** "Learning Tactile-Informed Dynamics Models for Dense Packing", *Robotic Science and Systems (RSS), 2024*. [[Website](https://robo-pack.github.io/)] [[Paper](https://arxiv.org/pdf/2407.01418)]
