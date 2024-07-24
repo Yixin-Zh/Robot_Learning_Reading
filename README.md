@@ -17,6 +17,8 @@
     - [Scene Understanding](#scene-understanding)
     - [Chaining](#chaining)
     - [Diffuser](#diffuser)
+    - [Key Point Descriptions](#key-point-descriptions)
+  - [Not yet included](#not-yet-included)
 
 ## Surveys
 - "Understanding the planning of LLM agents: A survey", *arXiv, Feb 2024.* [[Paper](https://arxiv.org/abs/2402.02716)]
@@ -31,6 +33,7 @@
 - **PDSketch:** "Integrated Domain Programming, Learning, and Planning", *NeurIPS, 2022*. [[Website](https://pdsketch.csail.mit.edu/)] [[Paper](https://arxiv.org/pdf/2303.05501)] [[Code](https://github.com/vacancy/PDSketch-Alpha-Release)]
 ### Reasoning
 - "Learning Reusable Manipulation Strategies", *Conference on Robot Learning (CoRL), 2023*.  [[Paper](https://arxiv.org/pdf/2311.03293)]
+- "Large Language Models as General Pattern Machines", *arXiv, Oct 2023.* [[Website](https://general-pattern-machines.github.io/)] [[Paper](https://arxiv.org/pdf/2307.04721)]
 
 ## Manipulation
 ### Skills
@@ -57,3 +60,12 @@
 
 ### Diffuser
 - **Diffusion Forcing:** "Next-token Prediction Meets Full-Sequence Diffusion", *arXiv, July 2024*. [[Website](https://boyuan.space/diffusion-forcing/)] [[Paper](https://arxiv.org/pdf/2407.01392)] [[Code](https://github.com/buoyancy99/diffusion-forcing)] 
+
+### Key Point Descriptions
+- **Neural Descriptor Fields:** "SE(3)-Equivariant Object Representations for Manipulation", *arViv, Dec 2021.* [[Paper](https://arxiv.org/abs/2112.05124)]
+- **D3Fields:** "Dynamic 3D Descriptor Fields for Zero-Shot Generalizable Robotic Manipulation", *arXiv, Oct 2023.* [[Website](https://robopil.github.io/d3fields/)] [[Paper](https://robopil.github.io/d3fields/d3fields.pdf)] [[Code](https://github.com/WangYixuan12/d3fields)]
+- **kPAM:** "KeyPoint Affordances for Category-Level Robotic Manipulation", *arXiv, Oct 2019*. [[Paper](https://arxiv.org/pdf/1903.06684)]
+- **Dense Object Nets:** "Learning Dense Visual Object Descriptors By and For Robotic Manipulation", *arXiv, Sep 2018*. [[Paper](https://arxiv.org/pdf/1806.08756)]
+- **DINO-ViT:** "Deep ViT Features as Dense Visual Descriptors", *arXiv, Oct 2022*. [[Paper](https://arxiv.org/pdf/2112.05814)]
+## Not yet included
+- **Affordance-Centric Policy Decomposition:** "Generalisable and Sample Efficient Robot Policy Learning for Multi-Object, Long-Horizon Manipulation", *Robotic Science and Systems (RSS), 2024*. [[Website](https://policy-decomposition.github.io/)] [[Paper](https://policy-decomposition.github.io/Images/paper.pdf)]
