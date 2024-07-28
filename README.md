@@ -11,6 +11,7 @@
     - [Learning](#learning)
     - [LLM](#llm)
   - [Manipulation](#manipulation)
+    - [Tool Use](#tool-use)
     - [Skills](#skills)
     - [Online Learning](#online-learning)
     - [Imitation Learning](#imitation-learning)
@@ -27,6 +28,7 @@
 - "Understanding the planning of LLM agents: A survey", *arXiv, Feb 2024.* [[Paper](https://arxiv.org/abs/2402.02716)]
 - "Integrated Task and Motion Planning", *arXiv, Oct 2020.* [[Paper](https://arxiv.org/pdf/2010.01083)]
 - "A Survey of Optimization-based Task and Motion Planning: From Classical To Learning Approaches", *arXiv, Apr 2024.*  [[Paper](https://arxiv.org/pdf/2404.02817)]
+-  **Robot Tool Use:** "Learning, Transferring, Reasoning, and Applying Knowledge about Robots Using Human Tools". *Yale, 2022.*   [[Paper](https://scazlab.yale.edu/sites/default/files/files/PhD_Thesis_Meiying_Qin.pdf)]
 ## Planning
 ### Frameworks
 - **PDSketch:** "Integrated Domain Programming, Learning, and Planning", *NeurIPS, 2022*. [[Website](https://pdsketch.csail.mit.edu/)] [[Paper](https://arxiv.org/pdf/2303.05501)] [[Code](https://github.com/vacancy/PDSketch-Alpha-Release)]
@@ -40,6 +42,7 @@
 - **DAG-Plan:** "Generating Directed Acyclic Dependency Graphs for Dual-Arm Cooperative Planning", *arXiv, June 2024*. [[Paper](https://arxiv.org/pdf/2406.09953)]
 
 ## Manipulation
+### Tool Use
 ### Skills
 - **EquiBot:** "SIM(3)-Equivariant Diffusion Policy for Generalizable and Data Efficient Learning", *arXiv, July 2024*. [[Website](https://equi-bot.github.io/)] [[Paper](https://arxiv.org/pdf/2407.01479)]
 - **RoboPack:** "Learning Tactile-Informed Dynamics Models for Dense Packing", *Robotic Science and Systems (RSS), 2024*. [[Website](https://robo-pack.github.io/)] [[Paper](https://arxiv.org/pdf/2407.01418)]
