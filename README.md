@@ -11,11 +11,12 @@
     - [Learning](#learning)
     - [LLM](#llm)
   - [Manipulation](#manipulation)
-    - [Tool Use](#tool-use)
+    - [Dynamics \& Kinematics](#dynamics--kinematics)
     - [Skills](#skills)
     - [Online Learning](#online-learning)
     - [Imitation Learning](#imitation-learning)
     - [Chaining](#chaining)
+    - [Tool Use](#tool-use)
   - [Observation Representation](#observation-representation)
     - [Scene Understanding](#scene-understanding)
   - [Action Representation](#action-representation)
@@ -42,7 +43,8 @@
 - **DAG-Plan:** "Generating Directed Acyclic Dependency Graphs for Dual-Arm Cooperative Planning", *arXiv, June 2024*. [[Paper](https://arxiv.org/pdf/2406.09953)]
 
 ## Manipulation
-### Tool Use
+### Dynamics & Kinematics
+- **VIRDO:** "Visio-tactile Implicit Representations of Deformable Objects", *International Conference on Robotics and Automation (ICRA), 2022*. [[Paper](https://arxiv.org/pdf/2202.00868)] [[Code](https://github.com/MMintLab/VIRDO)]
 ### Skills
 - **EquiBot:** "SIM(3)-Equivariant Diffusion Policy for Generalizable and Data Efficient Learning", *arXiv, July 2024*. [[Website](https://equi-bot.github.io/)] [[Paper](https://arxiv.org/pdf/2407.01479)]
 - **RoboPack:** "Learning Tactile-Informed Dynamics Models for Dense Packing", *Robotic Science and Systems (RSS), 2024*. [[Website](https://robo-pack.github.io/)] [[Paper](https://arxiv.org/pdf/2407.01418)]
@@ -59,7 +61,7 @@
 - **Genima**: "Generative Image as Action Models", *arXiv, July 2024*. [[Website](https://genima-robot.github.io/)] [[Paper](https://arxiv.org/pdf/2407.07875)] [[Code](https://github.com/MohitShridhar/genima)]
 ### Chaining
 - **Generative Skill Chaining:** "Long-Horizon Skill Planning with Diffusion Models", *Conference on Robot Learning (CoRL), 2023*. [[Website](https://generative-skill-chaining.github.io/)] [[Paper](https://generative-skill-chaining.github.io/assets/2023_Generative_Skill_Chaining.pdf)] [[Code](https://github.com/generative-skill-chaining/gsc-code)]
-
+### Tool Use
 
 
 ## Observation Representation
