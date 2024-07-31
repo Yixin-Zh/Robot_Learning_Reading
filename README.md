@@ -19,6 +19,7 @@
     - [Tool Use](#tool-use)
   - [Observation Representation](#observation-representation)
     - [Scene Understanding](#scene-understanding)
+    - [Intuitive Physics](#intuitive-physics)
   - [Action Representation](#action-representation)
     - [Key Point Descriptions](#key-point-descriptions)
   - [Toolbox](#toolbox)
@@ -30,6 +31,7 @@
 - "Integrated Task and Motion Planning", *arXiv, Oct 2020.* [[Paper](https://arxiv.org/pdf/2010.01083)]
 - "A Survey of Optimization-based Task and Motion Planning: From Classical To Learning Approaches", *arXiv, Apr 2024.*  [[Paper](https://arxiv.org/pdf/2404.02817)]
 -  **Robot Tool Use:** "Learning, Transferring, Reasoning, and Applying Knowledge about Robots Using Human Tools". *Yale, 2022.*   [[Paper](https://scazlab.yale.edu/sites/default/files/files/PhD_Thesis_Meiying_Qin.pdf)]
+- "A Survey on Machine Learning Approaches for Modelling Intuitive Physics", *arXiv, Apr 2022.* [[Paper](https://arxiv.org/pdf/2202.06481)]
 ## Planning
 ### Frameworks
 - **PDSketch:** "Integrated Domain Programming, Learning, and Planning", *NeurIPS, 2022*. [[Website](https://pdsketch.csail.mit.edu/)] [[Paper](https://arxiv.org/pdf/2303.05501)] [[Code](https://github.com/vacancy/PDSketch-Alpha-Release)]
@@ -70,6 +72,8 @@
 - **VoxPoser:** Composable 3D Value Maps for Robotic Manipulation with Language Models, *Conference on Robot Learning (CoRL), 2023*. [[Website](https://voxposer.github.io/)] [[Paper](https://voxposer.github.io/voxposer.pdf)] [[Code](https://github.com/huangwl18/VoxPoser)]
 - **Clio:** "Real-time Task-Driven Open-Set 3D Scene Graphs", *arXiv, Apr 2024*. [[Paper](https://arxiv.org/pdf/2404.13696)] [[Code](https://github.com/MIT-SPARK/Clio)]
 - **VLFM:** "Vision-Language Frontier Maps for Zero-Shot Semantic Navigation", *International Conference on Robotics and Automation (ICRA), 2024*. [[Website](http://naoki.io/portfolio/vlfm)] [[Paper](https://arxiv.org/pdf/2312.03275)] [[Code](https://github.com/bdaiinstitute/vlfm)]
+
+### Intuitive Physics
 ## Action Representation
 ### Key Point Descriptions
 - **Affordance-Centric Policy Decomposition:** "Generalisable and Sample Efficient Robot Policy Learning for Multi-Object, Long-Horizon Manipulation", *Robotic Science and Systems (RSS), 2024*. [[Website](https://policy-decomposition.github.io/)] [[Paper](https://policy-decomposition.github.io/Images/paper.pdf)]
