@@ -6,24 +6,25 @@
 - [Robot-Learning-Reading](#robot-learning-reading)
   - [Overview](#overview)
   - [Surveys](#surveys)
+  - [Diffusion Model](#diffusion-model)
+    - [Diffuser](#diffuser)
+    - [Manipulation](#manipulation)
   - [Planning](#planning)
     - [Frameworks](#frameworks)
     - [Learning](#learning)
     - [LLM](#llm)
-  - [Manipulation](#manipulation)
+  - [Manipulation](#manipulation-1)
     - [Dynamics \& Kinematics](#dynamics--kinematics)
     - [Skills](#skills)
     - [Online Learning](#online-learning)
     - [Imitation Learning](#imitation-learning)
-    - [Chaining](#chaining)
     - [Tool Use](#tool-use)
   - [Observation Representation](#observation-representation)
     - [Scene Understanding](#scene-understanding)
     - [Intuitive Physics](#intuitive-physics)
   - [Action Representation](#action-representation)
     - [Key Point Descriptions](#key-point-descriptions)
-  - [Toolbox](#toolbox)
-    - [Diffuser](#diffuser)
+  - [Deep Learning](#deep-learning)
     - [Theory](#theory)
 
 ## Surveys
@@ -32,6 +33,17 @@
 - "A Survey of Optimization-based Task and Motion Planning: From Classical To Learning Approaches", *arXiv, Apr 2024.*  [[Paper](https://arxiv.org/pdf/2404.02817)]
 -  **Robot Tool Use:** "Learning, Transferring, Reasoning, and Applying Knowledge about Robots Using Human Tools". *Yale, 2022.*   [[Paper](https://scazlab.yale.edu/sites/default/files/files/PhD_Thesis_Meiying_Qin.pdf)]
 - "A Survey on Machine Learning Approaches for Modelling Intuitive Physics", *arXiv, Apr 2022.* [[Paper](https://arxiv.org/pdf/2202.06481)]
+
+## Diffusion Model
+### Diffuser
+- **Diffusion Forcing:** "Next-token Prediction Meets Full-Sequence Diffusion", *arXiv, July 2024*. [[Website](https://boyuan.space/diffusion-forcing/)] [[Paper](https://arxiv.org/pdf/2407.01392)] [[Code](https://github.com/buoyancy99/diffusion-forcing)] 
+
+### Manipulation
+- **Generative Skill Chaining:** "Long-Horizon Skill Planning with Diffusion Models", *Conference on Robot Learning (CoRL), 2023*. [[Website](https://generative-skill-chaining.github.io/)] [[Paper](https://generative-skill-chaining.github.io/assets/2023_Generative_Skill_Chaining.pdf)] [[Code](https://github.com/generative-skill-chaining/gsc-code)]
+- **POCO:** "Policy Composition From and For Heterogeneous Robot Learning", , *Robotic Science and Systems (RSS), 2024*. [[Website](https://liruiw.github.io/policycomp/)] [[Paper](https://arxiv.org/pdf/2402.02511)]
+- **SE(3)-DiffusionFields:** "Learning smooth cost functions for joint grasp and motion optimization through diffusion", *International Conference on Robotics and Automation (ICRA), 2023*. [[Website](https://sites.google.com/view/se3dif)] [[Paper](https://arxiv.org/pdf/2209.03855)]
+
+
 ## Planning
 ### Frameworks
 - **PDSketch:** "Integrated Domain Programming, Learning, and Planning", *NeurIPS, 2022*. [[Website](https://pdsketch.csail.mit.edu/)] [[Paper](https://arxiv.org/pdf/2303.05501)] [[Code](https://github.com/vacancy/PDSketch-Alpha-Release)]
@@ -61,19 +73,18 @@
 - **ACT:** "Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware", *Robotic Science and Systems (RSS), 2023*. [[Website](https://tonyzhaozh.github.io/aloha/)] [[Paper](https://arxiv.org/pdf/2304.13705)] 
 - **Act3D:** "3D Feature Field Transformers for Multi-Task Robotic Manipulation", *Conference on Robot Learning (CoRL), 2023*. [[Website](https://act3d.github.io/)] [[Paper](https://arxiv.org/pdf/2306.17817)] [[Code](https://github.com/zhouxian/act3d-chained-diffuser)]
 - **Genima**: "Generative Image as Action Models", *arXiv, July 2024*. [[Website](https://genima-robot.github.io/)] [[Paper](https://arxiv.org/pdf/2407.07875)] [[Code](https://github.com/MohitShridhar/genima)]
-### Chaining
-- **Generative Skill Chaining:** "Long-Horizon Skill Planning with Diffusion Models", *Conference on Robot Learning (CoRL), 2023*. [[Website](https://generative-skill-chaining.github.io/)] [[Paper](https://generative-skill-chaining.github.io/assets/2023_Generative_Skill_Chaining.pdf)] [[Code](https://github.com/generative-skill-chaining/gsc-code)]
 ### Tool Use
 
 
 ## Observation Representation
-
 ### Scene Understanding
 - **VoxPoser:** Composable 3D Value Maps for Robotic Manipulation with Language Models, *Conference on Robot Learning (CoRL), 2023*. [[Website](https://voxposer.github.io/)] [[Paper](https://voxposer.github.io/voxposer.pdf)] [[Code](https://github.com/huangwl18/VoxPoser)]
 - **Clio:** "Real-time Task-Driven Open-Set 3D Scene Graphs", *arXiv, Apr 2024*. [[Paper](https://arxiv.org/pdf/2404.13696)] [[Code](https://github.com/MIT-SPARK/Clio)]
 - **VLFM:** "Vision-Language Frontier Maps for Zero-Shot Semantic Navigation", *International Conference on Robotics and Automation (ICRA), 2024*. [[Website](http://naoki.io/portfolio/vlfm)] [[Paper](https://arxiv.org/pdf/2312.03275)] [[Code](https://github.com/bdaiinstitute/vlfm)]
 
 ### Intuitive Physics
+
+
 ## Action Representation
 ### Key Point Descriptions
 - **Affordance-Centric Policy Decomposition:** "Generalisable and Sample Efficient Robot Policy Learning for Multi-Object, Long-Horizon Manipulation", *Robotic Science and Systems (RSS), 2024*. [[Website](https://policy-decomposition.github.io/)] [[Paper](https://policy-decomposition.github.io/Images/paper.pdf)]
@@ -82,9 +93,9 @@
 - **kPAM:** "KeyPoint Affordances for Category-Level Robotic Manipulation", *arXiv, Oct 2019*. [[Paper](https://arxiv.org/pdf/1903.06684)]
 - **Dense Object Nets:** "Learning Dense Visual Object Descriptors By and For Robotic Manipulation", *arXiv, Sep 2018*. [[Paper](https://arxiv.org/pdf/1806.08756)]
 - **DINO-ViT:** "Deep ViT Features as Dense Visual Descriptors", *arXiv, Oct 2022*. [[Paper](https://arxiv.org/pdf/2112.05814)]
-## Toolbox
-### Diffuser
-- **Diffusion Forcing:** "Next-token Prediction Meets Full-Sequence Diffusion", *arXiv, July 2024*. [[Website](https://boyuan.space/diffusion-forcing/)] [[Paper](https://arxiv.org/pdf/2407.01392)] [[Code](https://github.com/buoyancy99/diffusion-forcing)] 
+
+
+## Deep Learning
 ### Theory
 - **Vector Neurons:** "A General Framework for SO(3)-Equivariant Networks", *arXiv, Apr 2021.* [[Paper](https://arxiv.org/pdf/2104.12229)]
 
